@@ -1,6 +1,6 @@
-import Button from "@/ui/RequestQuoteButton";
 import NavBar from "./NavBar";
 import { lobster } from "@/app/layout";
+import RequestQuoteButton from "@/ui/RequestQuoteButton";
 
 const HomePage = () => {
   return (
@@ -16,9 +16,9 @@ const HomePage = () => {
         >
           We will move anything <br /> into any direction you <br /> want.
         </h1>
-        <Button className="ml-4 mt-5 bg-primary p-3 rounded-lg">
+        <RequestQuoteButton className="ml-4 mt-5 bg-primary p-3 rounded-lg">
           Request Quote
-        </Button>
+        </RequestQuoteButton>
       </div>
     </section>
   );

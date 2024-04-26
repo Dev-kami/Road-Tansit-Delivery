@@ -7,8 +7,8 @@ interface ButtonType
   className?: string;
 }
 
-const Button = ({ children, className }: ButtonType) => {
+const RequestQuoteButton = ({ children, className }: ButtonType) => {
   return <button className={className}>{children}</button>;
 };
 
-export default Button;
+export default RequestQuoteButton;

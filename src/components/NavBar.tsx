@@ -1,5 +1,5 @@
 import { navData } from "@/data/navData";
-import Button from "@/ui/RequestQuoteButton";
+import RequestQuoteButton from "@/ui/RequestQuoteButton";
 
 const NavBar = () => {
   const data = navData;
@@ -13,7 +13,9 @@ const NavBar = () => {
         ))}
       </nav>
 
-      <Button className="bg-primary w-40">Request Quote</Button>
+      <RequestQuoteButton className="bg-primary w-40">
+        Request Quote
+      </RequestQuoteButton>
     </header>
   );
 };

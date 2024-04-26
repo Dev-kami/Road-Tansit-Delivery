@@ -1,9 +1,13 @@
-import HomePage from "@/components/HomePage";
+import About from "@/components/About";
+import GetStarted from "@/components/GetStarted";
+import Home from "@/components/Home";
 
 const Page = () => {
   return (
     <div className="h-screen w-full">
-      <HomePage />
+      <Home />
+      <About />
+      <GetStarted />
     </div>
   );
 };
