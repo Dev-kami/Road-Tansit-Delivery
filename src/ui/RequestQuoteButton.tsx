@@ -4,7 +4,7 @@ interface ButtonType
     HTMLButtonElement
   > {
   children: React.ReactNode;
-  className: string;
+  className?: string;
 }
 
 const Button = ({ children, className }: ButtonType) => {
