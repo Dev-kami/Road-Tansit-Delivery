@@ -36,21 +36,6 @@ const Testimonials = ({ lobster }: { lobster: NextFont }) => {
           handleDec={handleDec}
         />
       ))}
-
-      {/* <div className="flex gap-x-5 justify-center pl-[6.5rem]">
-        <button
-          onClick={handleDec}
-          className="bg-white text-primary font-extrabold px-3 rounded-sm"
-        >
-          &larr;
-        </button>
-        <button
-          onClick={handleInc}
-          className="bg-white text-primary font-extrabold px-3 rounded-sm"
-        >
-          &rarr;
-        </button>
-      </div> */}
     </section>
   );
 };
