@@ -11,11 +11,11 @@ const Testimonials = ({ lobster }: { lobster: NextFont }) => {
 
   const handleInc = () => {
     setIsActive((isActive) => (isActive += 1));
-    if (isActive === testimonials.length - 1) setIsActive(0);
+    if (isActive === testimonials.length - 1) return;
   };
 
   const handleDec = () => {
-    if (isActive === 0) setIsActive(testimonials.length);
+    if (isActive === 0) return;
 
     setIsActive((isActive) => (isActive -= 1));
   };
@@ -34,6 +34,7 @@ const Testimonials = ({ lobster }: { lobster: NextFont }) => {
           isActive={isActive}
           handleInc={handleInc}
           handleDec={handleDec}
+          testimonialLength={testimonials.length}
         />
       ))}
     </section>
