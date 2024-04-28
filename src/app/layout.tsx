@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-//import { Inter, Lobster } from "next/font/google";
-import { Inter } from "next/font/google";
+import { Inter, Lobster } from "next/font/google";
+//import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-/*export const lobster = Lobster({
+export const lobster = Lobster({
   subsets: ["latin"],
   weight: "400",
-});*/
+});
 
 export const metadata: Metadata = {
   title: "Road Transit delivery",

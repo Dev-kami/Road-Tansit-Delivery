@@ -11,8 +11,8 @@ const HomePage = () => {
       <div className="px-36 pt-32 h-[calc(100vh-3.5rem)]">
         <h1
           className={
-            lobster.className +
-            " text-6xl pl-4 relative before:h-[calc(100%-1.5rem)] before:w-1 before:bg-gradient-to-b from-primary to-white before:absolute before:left-1"
+            //lobster.className +
+            " font-lobster text-6xl pl-4 relative before:h-[calc(100%-1.5rem)] before:w-1 before:bg-gradient-to-b from-primary to-white before:absolute before:left-1"
           }
         >
           We will move anything <br /> into any direction you <br /> want.

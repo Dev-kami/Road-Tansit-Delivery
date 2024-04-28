@@ -22,7 +22,12 @@ const Testimonials = ({ lobster }: { lobster: NextFont }) => {
 
   return (
     <section className="bg-primary px-36 py-10 text-white">
-      <h3 className={lobster.className + " text-3xl mb-5 text-center pl-32"}>
+      <h3
+        className={
+          //lobster.className +
+          " font-lobster text-3xl mb-5 text-center pl-32"
+        }
+      >
         Testimonial
       </h3>
 

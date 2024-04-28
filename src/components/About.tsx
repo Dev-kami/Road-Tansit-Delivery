@@ -1,7 +1,7 @@
 //import { lobster } from "@/app/layout";
 import RequestQuoteButton from "@/ui/RequestQuoteButton";
 import Image from "next/image";
-import { lobster } from "@/app/page";
+//import { lobster } from "@/app/page";
 
 const About = () => {
   return (
@@ -9,8 +9,8 @@ const About = () => {
       <div className="flex flex-col flex-1 items-start justify-center">
         <h2
           className={
-            lobster.className +
-            " text-primary text-5xl before:h-16 relative before:w-1 before:bg-gradient-to-b from-primary to-white before:absolute before:-left-2"
+            //lobster.className +
+            " font-lobster text-primary text-5xl before:h-16 relative before:w-1 before:bg-gradient-to-b from-primary to-white before:absolute before:-left-2"
           }
         >
           Fast & Secured way <br /> of road transit <br /> delivery

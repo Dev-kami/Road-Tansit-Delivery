@@ -14,6 +14,9 @@ const config: Config = {
       backgroundImage: {
         "home-image": "url('/images/delivery-trailer-1.png')",
       },
+      fontFamily: {
+        lobster: ["var(--font-lobster)"],
+      },
     },
   },
   plugins: [],
