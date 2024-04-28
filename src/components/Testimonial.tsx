@@ -39,14 +39,14 @@ const Testimonial = ({
               <button
                 disabled={isActive === 0}
                 onClick={handleDec}
-                className="bg-white text-primary font-extrabold px-3 rounded-sm disabled:bg-white/50"
+                className="bg-white text-primary font-extrabold px-4 py-0.5 rounded-sm disabled:bg-white/50"
               >
                 &larr;
               </button>
               <button
                 disabled={isActive === testimonialLength - 1}
                 onClick={handleInc}
-                className="bg-white text-primary font-extrabold px-3 rounded-sm disabled:bg-white/50"
+                className="bg-white text-primary font-extrabold px-4 py-0.5 rounded-sm disabled:bg-white/50"
               >
                 &rarr;
               </button>

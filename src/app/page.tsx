@@ -4,6 +4,7 @@ import Home from "@/components/Home";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import { lobster } from "./layout";
+import Footer from "@/components/Footer";
 
 const Page = () => {
   return (
@@ -13,6 +14,7 @@ const Page = () => {
       <GetStarted />
       <Services />
       <Testimonials lobster={lobster} />
+      <Footer />
     </div>
   );
 };
