@@ -1,6 +1,7 @@
 import NavBar from "./NavBar";
-import { lobster } from "@/app/layout";
+//import { lobster } from "@/app/layout";
 import RequestQuoteButton from "@/ui/RequestQuoteButton";
+import { lobster } from "@/app/page";
 
 const HomePage = () => {
   return (

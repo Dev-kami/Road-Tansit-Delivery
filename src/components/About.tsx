@@ -1,6 +1,7 @@
-import { lobster } from "@/app/layout";
+//import { lobster } from "@/app/layout";
 import RequestQuoteButton from "@/ui/RequestQuoteButton";
 import Image from "next/image";
+import { lobster } from "@/app/page";
 
 const About = () => {
   return (
