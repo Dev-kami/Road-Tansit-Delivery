@@ -5,7 +5,8 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const lobster = Lobster({
+const lobster = Lobster({
+  variable: "--font-lobster",
   subsets: ["latin"],
   weight: "400",
 });
