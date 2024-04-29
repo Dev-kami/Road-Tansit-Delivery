@@ -5,7 +5,7 @@ const Footer = () => {
     "font-lobster text-primary text-3xl before:h-16 relative before:w-1 before:bg-gradient-to-b from-primary to-white before:absolute before:-left-2";
 
   return (
-    <section className="px-36 py-5 flex justify-between">
+    <section className="lg:px-36 px-10 py-5 flex sm:flex-row flex-col justify-between sm:gap-y-0 gap-y-5">
       <div className="flex flex-col gap-y-5">
         <h3 className={h3Style}>Contact Us</h3>
         <span className="flex items-center text-sm font-medium ">
