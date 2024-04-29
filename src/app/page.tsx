@@ -8,10 +8,10 @@ import Footer from "@/components/Footer";
 
 //import { lobster } from "./layout";
 
-export const lobster = Lobster({
+/*export const lobster = Lobster({
   subsets: ["latin"],
   weight: "400",
-});
+});*/
 const Page = () => {
   return (
     <div className="h-screen w-full">
@@ -19,7 +19,7 @@ const Page = () => {
       <About />
       <GetStarted />
       <Services />
-      <Testimonials lobster={lobster} />
+      <Testimonials />
       <Footer />
     </div>
   );

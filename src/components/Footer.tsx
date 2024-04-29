@@ -1,10 +1,10 @@
 import Image from "next/image";
 //import { lobster } from "@/app/layout";
-import { lobster } from "@/app/page";
+//import { lobster } from "@/app/page";
 
 const Footer = () => {
   const h3Style =
-    lobster.className +
+    // lobster.className +
     " font-lobster text-primary text-3xl before:h-16 relative before:w-1 before:bg-gradient-to-b from-primary to-white before:absolute before:-left-2";
 
   return (
