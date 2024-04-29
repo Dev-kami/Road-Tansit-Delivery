@@ -1,18 +1,9 @@
 import Image from "next/image";
-//import { lobster } from "@/app/layout";
-//import { lobster } from "@/app/page";
 
 const Services = () => {
   return (
     <section className="px-36 py-20 text-center">
-      <h3
-        className={
-          //lobster.className +
-          " font-lobster text-3xl text-primary pb-4"
-        }
-      >
-        Our Services
-      </h3>
+      <h3 className="font-lobster text-3xl text-primary pb-4">Our Services</h3>
       <p className="pb-6">
         We understand the importance of reliable and efficient logistics
         solutions for businesses of all sizes.

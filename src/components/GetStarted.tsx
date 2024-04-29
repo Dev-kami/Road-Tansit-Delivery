@@ -1,20 +1,11 @@
 import Image from "next/image";
-//import { lobster } from "@/app/layout";
-//import { lobster } from "@/app/page";
 
 const GetStarted = () => {
   return (
     <section className="pl-36 bg-primary">
       <div className="text-white flex justify-between">
         <div className="flex flex-col w-[80%] justify-center">
-          <h3
-            className={
-              //lobster.className +
-              " font-lobster text-3xl mb-5"
-            }
-          >
-            Get Started Today
-          </h3>
+          <h3 className="font-lobster text-3xl mb-5">Get Started Today</h3>
           <p>
             Ready to take your logistics to the next level? Contact <br /> us to
             learn more about our services and how we <br /> can help your
