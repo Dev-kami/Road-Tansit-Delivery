@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const Services = () => {
   return (
-    <section className="px-36 py-20 text-center">
+    <section className="lg:px-36 px-10 md:py-20 py-10 text-center">
       <h3 className="font-lobster text-3xl text-primary pb-4">Our Services</h3>
       <p className="pb-6">
         We understand the importance of reliable and efficient logistics
         solutions for businesses of all sizes.
       </p>
 
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center md:flex-row flex-col md:mt-0 mt-10">
         <div>
           <Image
             className="w-full h-full mb-5"
