@@ -20,7 +20,7 @@ const Testimonial = ({
   return (
     <>
       {currentIndex === isActive && (
-        <div className="flex">
+        <div className="flex md:flex-row flex-col items-center gap-y-5">
           <div className="flex-1">
             <Image
               src={testimonial.imageUrl}
